@@ -107,7 +107,7 @@ function boardToString(board, options) {
   for (var i=0; i<height; i++) {
     result[i] = [];
     for (var j=0; j<width; j++) {
-      result[i][j] = symbols[board.board[j][i]];
+      result[i][j] = symbols[board.board[j][i]] || symbols[special.empty];
     }
     result[i] = result[i].join('');
   }
