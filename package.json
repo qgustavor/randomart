@@ -1,12 +1,17 @@
 {
   "name": "randomart",
   "version": "0.0.1",
-  "description": "",
+  "description": "OpenSSH randomart images library in JS",
   "main": "randomart.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slapresta/randomart.git"
+  },
+  "readme": "README.md",
   "license": "MIT",
   "dependencies": {
     "lodash": "^2.4.1"
