@@ -32,6 +32,29 @@ console.log(randomart([
         .o+...
 ```
 
+Documentation
+====
+
+The function returned by `require('randomart')` optionally accepts two arguments: the first one, `data`, is expected to be an array of integers between 0 and 255, while the second one, `options`, has the following structure, in which all parent elements are optional:
+
+```json
+{
+  "bounds": {
+    "width": 17,
+    "height": 9,
+  },
+  "symbols": {
+    "-2": "E",
+    "-1": "S",
+     "0": " ",
+     "1": ".",
+    [...]
+    "13": "/",
+    "14": "^"
+  }
+}
+```
+
 Credits
 ====
 
