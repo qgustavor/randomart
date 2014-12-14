@@ -1,6 +1,7 @@
 (function() {
 
 var _ = require('lodash');
+var crypto = require('crypto');
 
 var defaultSymbols = {
   "-2": "E", // end
@@ -115,6 +116,7 @@ function boardToString(board, options) {
 }
 
 function randomart(data, options) {
+  var data = data || crypto.pseudoRandomBytes(16);
   var options = options || {};
 
   return boardToString(generateBoard(data, options), options);
