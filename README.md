@@ -35,4 +35,4 @@ console.log(randomart([
 Credits
 ====
 
-Thanks to @calmh for their hard work! May the opensource gods reward them with seventy-two non-terrible window managers.
+Thanks to [@calmh](https://github.com/calmh) for their hard work! May the opensource gods reward them with seventy-two non-terrible window managers.
