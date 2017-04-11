@@ -9,7 +9,7 @@
         module.exports = factory();
     } else {
         // Browser globals (root is window)
-        root.returnExports = factory();
+        root.randomart = factory();
   }
 }(this, function() {
   var defaultSymbols = {
@@ -132,4 +132,4 @@
   }
 
   return randomart;
-});
+}));
